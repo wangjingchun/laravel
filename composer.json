@@ -1,0 +1,10 @@
+{
+    "name": "wangjingchun/laravel plugin",
+    "description": "a laravel plugin.",
+    "keywords": ["plugin", "laravel"],
+    "license": "MIT",
+    "type": "plugin",
+    "require": {
+        "php": ">=5.5.9",
+    },
+}
