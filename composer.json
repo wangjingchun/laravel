@@ -1,10 +1,19 @@
 {
     "name": "wangjingchun/laravel plugin",
-    "description": "a laravel plugin.",
-    "keywords": "laravel plugin",
+    "description": "laravel plugin",
+    "keywords": ["laravel", "plugin"],
     "license": "MIT",
-    "type": "plugin",
+    "authors": [
+        {
+            "name": "wangjingchun",
+            "email": "975235798@qq.com"
+        }
+    ],
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.4.0",
+        "illuminate/support": "^5.0,<5.4",
+        "illuminate/console": "^5.0,<5.4",
+        "illuminate/filesystem": "^5.0,<5.4",
+        "symfony/class-loader": "^2.3|^3.0"
     },
 }
